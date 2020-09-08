@@ -14,6 +14,11 @@ or you can download zip archive from:
 https://github.com/iskliarenko/spartadocker/archive/master.zip
 ```
 
+### Create src/pub directory
+```
+mkdir -p ./src/pub && echo "<?php phpinfo();" > ./src/pub/index.php
+```
+
 ### Build and run
  - Generate your [Magento Access Keys](http://devdocs.magento.com/guides/v2.0/install-gde/prereq/dev_install.html)
  - Copy auth.json `cp conf/magento/auth.json.example conf/magento/auth.json`
